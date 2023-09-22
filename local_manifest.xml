@@ -13,7 +13,7 @@
             fetch="https://github.com/MayuriLabs/" />
 
  <!-- Trees -->
- <project path="device/xiaomi/certus64" name="device_xiaomi_certus64" remote="tree" revision="13" clone-depth="1" />
+ <project path="device/xiaomi/certus" name="device_xiaomi_certus" remote="tree" revision="13" clone-depth="1" />
  <project path="vendor/xiaomi/certus" name="proprietary_vendor_xiaomi" remote="me-hub" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765" remote="me-hub" revision="alps-0.6" clone-depth="1" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="linaro_aarch64-linux-gnu-7.5" remote="me" revision="master" clone-depth="1" />

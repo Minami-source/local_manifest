@@ -3,21 +3,18 @@
 
     <!-- Remotes -->
     <remote name="me-hub"
-            fetch="https://github.com/baunilla/" />
+            fetch="https://github.com/Mayuri-Chan/" />
     
     <!-- Remotes -->
     <remote name="tree"
-            fetch="https://github.com/Miku-Lab/" />
+            fetch="https://github.com/LibraGeng/" />
 
-    <remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/" />
+    <remote name="me"
+            fetch="https://github.com/MayuriLabs/" />
 
  <!-- Trees -->
- <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="tree" revision="lineage-20.0" clone-depth="1" />
- <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="me-hub" revision="lineage-20.0" clone-depth="1" />
- <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="tree" revision="lineage-20.0" clone-depth="1" />
-
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
-
+ <project path="device/xiaomi/certus64" name="device_xiaomi_certus64" remote="tree" revision="13" clone-depth="1" />
+ <project path="vendor/xiaomi/certus" name="proprietary_vendor_xiaomi" remote="me-hub" revision="12.1" clone-depth="1" />
+ <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765" remote="me-hub" revision="alps-0.6" clone-depth="1" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="linaro_aarch64-linux-gnu-7.5" remote="me" revision="master" clone-depth="1" />
 </manifest>

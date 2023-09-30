@@ -8,14 +8,19 @@
     <!-- Remotes -->
     <remote name="tree"
             fetch="https://github.com/LibraGeng/" />
-
-    <remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/" />
+    
+    <!-- Remotes -->
+    <remote name="ImSurajxD" 
+            fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Trees -->
  <project path="device/xiaomi/certus" name="device_xiaomi_certus" remote="tree" revision="13" clone-depth="1" />
  <project path="vendor/xiaomi/certus" name="proprietary_vendor_xiaomi" remote="me-hub" revision="12.1" clone-depth="1" />
  <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765" remote="me-hub" revision="alps-0.6" clone-depth="1" />
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
+ 
+
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+
+I use this
 </manifest>

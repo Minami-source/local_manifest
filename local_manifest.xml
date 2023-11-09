@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
-    <remote name="me-hub"
-            fetch="https://github.com/Mayuri-Chan/" />
+        <remote name="rem"
+                fetch="https://github.com" />
+
+        <remove-project name="android_hardware_lineage_compat" />
+        <project path="hardware/lineage/compat" name="shenprjkt/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
     
-    <!-- Remotes -->
-    <remote name="tree"
-            fetch="https://github.com/LibraGeng/" />
-    
-    <!-- Remotes -->
-    <remote name="ImSurajxD" 
-            fetch="https://gitlab.com/ImSurajxD" />
-
- <!-- Trees -->
- <project path="device/xiaomi/certus" name="device_xiaomi_certus" remote="tree" revision="13" clone-depth="1" />
- <project path="vendor/xiaomi/certus" name="proprietary_vendor_xiaomi" remote="me-hub" revision="12.1" clone-depth="1" />
- <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765" remote="me-hub" revision="alps-0.6" clone-depth="1" />
- 
-
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
-
-I use this
+        <project path="device/xiaomi/rosy" name="Renzprjkt/device_xiaomi_rosy" remote="rem" revision="14" clone-depth="1" />
+        <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="kernel/xiaomi/rosy" name="Renzprjkt/kernel_xiaomi_rosy" remote="rem" revision="14-retrofit/ksu" />
 </manifest>
